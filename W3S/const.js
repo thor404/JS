@@ -92,15 +92,62 @@
 // car.owner = "johnson" // to add a property
 
 
+// [+] Redeclaring
 
-/*
-            Block scope 
+// Redeclaring a javascript 'var' variable is allowed anywhere in a program:
 
-            declaring a variable with 'const' is similar to 'let' when it comes to block scope 
-            
+// var x = 2;
+// var x = 3;
+// x = 4;
 
-*/
 
+
+// --> Redeclaring an existing 'var' or 'let' variable 'const' in the same scope is not allowd;
+
+
+// var x = 2;      // allowed
+// const x = 2;    // not allowed
+
+// {
+//     let x = 2;      // allowed 
+//     const x = 2;    // not allowed
+// }
+
+// {
+//     const x = 2;    // alowed
+//     const x = 2;    // not allowed
+// }
+
+
+
+
+// reassigning an existing 'const' variable, in the same scope, is not allowed
+// example:
+
+// const x = 2;     // Allowed
+// x = 2;           // Not allowed
+// var x = 2;       // Not allowed
+// let x = 2;       // Not allowed
+// const x = 2;     // Not allowed
+
+// {
+//   const x = 2;   // Allowed
+//   x = 2;         // Not allowed
+//   var x = 2;     // Not allowed
+//   let x = 2;     // Not allowed
+//   const x = 2;   // Not allowed
+// }
+
+
+// Redeclaring a variable 'const', in  another scope or in another block is allowed
+// const x = 2;    // allowed
+// {
+//     const x = 3;    // allowed
+// }
+
+// {
+//     const x = 4;    // allowed
+// }
 
 
 
