@@ -151,3 +151,24 @@
 
 
 
+/*
+
+                    Const Hoisting
+                    Variables defined with 'var' are hoisted to the top and can be initialized at any time.
+
+
+                    example:
+
+                    carname = "totyota";
+                    var carname;
+
+
+                    - variables defined with 'const' are also hoisted to the top, but not initialized.
+                    - meaning: using a 'const' variable before it is declared will result in a RefferenceError:
+
+                    example:
+
+                    alert(carname);
+                    const acarName = "volvo";
+
+*/
