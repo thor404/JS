@@ -51,3 +51,38 @@
 
 
 
+/*
+                    Function used as variable values
+
+                    functions can be used the same way as you use variable, in all tyes of formulas, assignments, and calculations
+
+*/
+
+// example:
+
+// function add(a, b) {
+//     return a + b;
+// }
+// let result = add(10, 20);
+// console.log(result);
+
+
+
+// --> local vairables
+//          - variable declared within a javaScript function, become local to the function
+//          - local variables can only beaccessed from within the function
+
+
+// // code here can NOT use carName
+
+// function myFunction() {
+//     let carName = "volvo";
+//     // code here CAN use carName
+// }
+// // code here can NOT use carName 
+
+
+
+
+
+
