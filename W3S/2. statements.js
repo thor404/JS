@@ -7,10 +7,10 @@
 
 */
 
-// let a, b, c; // statement 1
-// a = 10;  // statement 2
-// b = 20; // statement 3
-// c = 30;  // statement 4
+let a, b, c; // statement 1
+a = 10;  // statement 2
+b = 20; // statement 3
+c = 30;  // statement 4
 
 
 /* 
