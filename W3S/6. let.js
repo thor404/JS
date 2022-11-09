@@ -10,9 +10,9 @@
 
 */
 
-let x = "fahishakil";
-let x = 0;
-console.log(x); // SyntaxError: Identifier 'x' has already been declared
+// let x = "fahishakil";
+// let x = 0;
+// console.log(x); // SyntaxError: Identifier 'x' has already been declared
 
 
 
