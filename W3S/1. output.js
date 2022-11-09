@@ -12,26 +12,26 @@
 */
 
 // --> using innerHTML
-// document.getElementById("example").innerHTML = 12 + 4; 
+document.getElementById("example").innerHTML = 12 + 4; 
 
 
 // --> using document.write()
-// document.write(5 + 6);
+document.write(5 + 6);
 
 
 // --> using window.alert()
-// window.alert(5 + 6)
+window.alert(5 + 6)
 
 
 // we can skip window keyword
-// alert(5+4)
+alert(5+4)
 
 // --> using console.log()
-// console.log("something here!");
+console.log("something here!");
 
 
 // --> JavaScript print 
-// button onclick = "window.print()"> print this page </button>
+button onclick = "window.print()"> print this page </button>
 
 
 
