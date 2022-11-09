@@ -2,15 +2,15 @@
 
 // to create variables:
 
-// var x;
-// var y;
+var x;
+var y;
 
 
 // using varibales 
 
-// x = 5;
-// y = 6;
-// let z = x + y;
+x = 5;
+y = 6;
+let z = x + y;
 
 
 /* 
