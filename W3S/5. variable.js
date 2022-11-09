@@ -17,23 +17,23 @@
 */
 
 
-// var x = 3;
-// var y = 6;
-// var z = x + y;
+var x = 3;
+var y = 6;
+var z = x + y;
 
 // another way 
 
-// var a, b, c;
-// a = 10;
-// b = 20;
-// c = a + b;
+var a, b, c;
+a = 10;
+b = 20;
+c = a + b;
 
 // -- let 
 
-// let a, b, c;
-// a = 1;
-// b = 5; 
-// c = a * b;
+let a, b, c;
+a = 1;
+b = 5; 
+c = a * b;
 
 
 /*
@@ -44,14 +44,14 @@
             if you think the value of the variable can change, use 'let'
 */
 
-// const price1 = 50;
-// const price2 = 43;
-// let total = price1 + price2;
+const price1 = 50;
+const price2 = 43;
+let total = price1 + price2;
 
 
 
 // one satement, many variable 
-// let person = "torikus", carName = "Ferari", price = "$$$$$$$$$"
+let person = "torikus", carName = "Ferari", price = "$$$$$$$$$"
 
 
 
@@ -62,8 +62,8 @@
 
 //      re-declaring javascript variables
 
-// var carname = "toyota";
-// var carname;
+var carname = "toyota";
+var carname;
 
 
 
