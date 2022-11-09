@@ -10,9 +10,9 @@
 
 */
 
-// let x = "fahishakil";
-// let x = 0;
-// console.log(x); // SyntaxError: Identifier 'x' has already been declared
+let x = "fahishakil";
+let x = 0;
+console.log(x); // SyntaxError: Identifier 'x' has already been declared
 
 
 
@@ -27,16 +27,16 @@
 
 
 
-// {
-//     let x = 2;
-// }
+{
+    let x = 2;
+}
 
 // x can't be use here
 
 
-// {
-//     var x = 2;
-// }
+{
+    var x = 2;
+}
 // x can be used here.
 
 
