@@ -160,3 +160,77 @@
 
 
 
+/*
+                    Infinity
+
+                    Infinity ( or -Infinity) is the value javaScript will return if you calculate a numebr outside the large    possible number 
+*/
+
+// let num = 2;
+// while (num != Infinity) {
+//     num = num * num;
+// }
+// console.log(num);
+
+
+
+// let num = 2;
+// while (num != Infinity) {
+//     num = num * num;
+//     console.log(num);
+// }
+
+
+
+//      division by zero also generates Infinity
+
+// let a = 2 / 0;
+// console.log(a);
+// let b = -2 / 0;
+// console.log(b);
+
+
+
+
+// Infinity is anumber: typeof Infinity returns number.
+
+// console.log(typeof(Infinity));
+
+
+
+
+/*
+                    javaScript numbers as objects
+
+                    normally javascript numbers are primitive values created from literals:
+
+                    do not create number objects
+                    the new keyword complicates the code and slows down execution speed
+
+                    number objects can produce unexpected results:
+*/
+
+
+// numbers can also be defined as objecsa with the keyword new:
+
+
+// let b = new Number(123);
+// console.log(b);
+
+// let x = 500;
+// let y = new Number(500);
+// console.log(x == y);        // true
+
+
+
+
+// let x = 500;
+// let y = new Number(500);
+// console.log(x === y);        // false
+
+
+
+
+
+
+
