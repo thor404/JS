@@ -39,3 +39,16 @@
 // let x = 5n;
 // let y = Number(x) / 2;
 // console.log(y);
+
+
+//      new number methods 
+
+// console.log(Number.isInteger(10));
+// console.log(Number.isInteger(10.5));
+
+
+// console.log(Number.isSafeInteger(10));
+// console.log(Number.isSafeInteger(10343453453453454234234234234234234));
+
+
+
