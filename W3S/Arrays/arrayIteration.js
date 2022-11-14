@@ -158,6 +158,22 @@
 
 
 
+/*
+                    javaScript Array keys()
+
+                    the Array.keys() method returns an Array iterator object with the keys of an array
+*/
+
+
+
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// const keys = fruits.keys();
+
+// for (let x of keys) {
+//     console.log(x);
+// }
+
+
 
 
 
