@@ -30,3 +30,24 @@
 
 
 
+//  this will not work
+
+// const cars;
+// cars = ["saab", "volvo", "BMW"];
+
+
+
+
+//      const block scope 
+
+// const cars = ["Saab", "Volvo", "BMW"];
+// // Here cars[0] is "Saab"
+// {
+//   const cars = ["Toyota", "Volvo", "BMW"];
+//   // Here cars[0] is "Toyota"
+// }
+// // Here cars[0] is "Saab"
+
+
+
+
