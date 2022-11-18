@@ -24,3 +24,4 @@ var query = "pocketNum";
 
 // console.log("The pocketNum value:", backpack["pocketNum"]);
 console.log("The pocketNum value:", backpack[query]);
+
