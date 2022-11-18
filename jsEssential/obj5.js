@@ -21,3 +21,7 @@ const backpack = {
 console.log('left before:', backpack.strapLength.left);
 backpack.newStrapLength(10, 23);
 console.log('left after:', backpack.strapLength.left);
+
+
+
+
