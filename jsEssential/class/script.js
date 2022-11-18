@@ -45,3 +45,4 @@ const amazon = new Book (
     'still reading',
 );
 console.log(amazon);
+
