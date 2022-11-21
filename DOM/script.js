@@ -16,6 +16,50 @@
 // console.log(document.getElementById('new-task'));
 
 
-let headElement = document.getElementById('header');
-headElement.textContent = 'To Do apps';
-headElement.innerText = 'To do apps';
+// let headElement = document.getElementById('header');
+// headElement.textContent = 'To Do apps';
+// headElement.innerText = 'To do apps';
+
+
+
+// let headElement = document.getElementById('header');
+// headElement.style.borderBottom = 'red';
+
+
+
+// let items = document.getElementsByClassName('item');
+// for(let i = 0; i < items.length; i++) {
+//     items[i].style.color = 'red';
+// }
+
+
+// let itemUl = document.getElementById('items')
+// let items = itemUl.getElementsByClassName('item');
+// for(let i = 0; i < items.length; i++) {
+//     items[i].style.color = 'red';
+// }
+
+
+
+// get element tagname
+
+
+
+// let items = document.getElementsByTagName('li');
+// console.log(items);
+
+
+
+// Query selector 
+
+
+// let head = document.querySelector('.header');
+// console.log(header);
+
+
+// let head = document.querySelector('#new-tesk');
+// console.log(header);
+
+
+let lastItem = document.querySelector('.item:last-child');
+lastItem.style.color = 'red';
