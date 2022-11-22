@@ -79,7 +79,7 @@
 /*
                     javascript string match()
 
-                    the match() method returns an array containing the results of matching a string agains a string (ora a regular expression).
+                    the match() method returns an array containing the results of matching a string agains a string (or a regular expression).
 */
 
 // let text = "The rain in SPAIN stays mainly in the plain";
@@ -108,15 +108,77 @@
 
 
 
+/*
+                    javascript string matchAll()
+                    the matchAll() method  returns an iterator containing the results of matching a string agains a string ( or a regular expression)
+*/
+
+
+// let text = "I love cats. Cats are very easy to love. Cats are very popular."
+// const iterator = text.matchAll("Cats");
+// console.log(iterator);
+
+
+
+//     if the parameter is a regular expression, the global flag (g) must be set, otherwise a TypeError is thrown.
+
+// const iterator = text.matchall(/Cats/g);
+
+
+
+/*
+                    javaScript string includes()
+                    The includes() methods returns true if a string contains a specific value
+*/
+
+// let text = "Hello world, welcome to the universe";
+// let ans = text.includes("world");
+// console.log(ans);
+
+
+//          check if a string includes "wrold" start at position 12:
+
+// let text = "Hello world, welcome to the universe";
+// let ans = text.includes("world", 12);
+// console.log(ans);
+
+/*
+            includes() is case sensitive
+            includes() is an ES6 feature (javascript 2015)
+*/
 
 
 
 
 
+/*
+                    javascript string startsWith()
+
+                    The startsWith()    method returns trueif a string begins with a specific value
+                    otherwise it returns false:
+*/
 
 
 
 
+// let text = "Hello world, welcome to the universe.";
+// let ans = text.startsWith("Hello");
+// console.log(ans);
+
+
+
+
+/*
+                    JavaScript String endsWith()
+
+                    The endsWith() method returns true if a string ends with a specified value.
+*/
+
+
+
+// let str = "Torikus sadik";
+// let ans = str.endsWith("sadik");
+// console.log(ans);
 
 
 
