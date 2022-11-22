@@ -61,5 +61,30 @@
 // console.log(header);
 
 
-let lastItem = document.querySelector('.item:last-child');
-lastItem.style.color = 'red';
+// let lastItem = document.querySelector('.item:last-child');
+// lastItem.style.color = 'red';
+
+
+
+
+
+// const parent = document.querySelector('#items');
+// const children = parent.children;
+
+// console.log(children);
+
+
+// const grandparent = document.querySelector('.todo-list');
+// const parent = grandparent.children;
+// const children = parent[1].children;
+// console.log(children);
+
+
+
+// const grandparent = document.querySelector('.todo-list');
+// // const parent = grandparent.children;
+// const children = grandparent.querySelector('.item');
+// console.log(children);
+
+
+
